@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <marquee class="marquee">Create by Mahedi Hasan Bokul</marquee>
+
+        <div class="card-title">
+            <h1>Guessing Game</h1>
+
+        </div>
+        <div class="card-body">
+           <form>
+            <div class="form-field">
+                <label for="GuessingNumber">guessing Number between 1-5:</label>
+               <input required type="number"id="guessingNumber" min="1" max="5">
+           </div>
+
+           <div class="buttons">
+               <button class="btn" id="check" type="submit">Check results</button>
+           </div>
+           </form> 
+           <p class="resultText"> </p>
+           <p class="remainingAttempts"> </p>
+
+        </div>
+    </div>
+</div>
+
+
+        <script src="style.js"></script>
+    </body>
+</html>
